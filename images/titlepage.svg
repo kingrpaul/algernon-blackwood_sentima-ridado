@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 340">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 550">
 	<title>The titlepage for the Standard Ebooks edition of Sentima Ridado, by Algernon Blackwood</title>
 	<style type="text/css">
 		text{
@@ -15,7 +15,16 @@
 		.author{
 			font-size: 70.17543793px;
 		}
+
+		.contributor-descriptor{
+			font-family: "OFL Sorts Mill Goudy";
+			font-size: 42.5079689px;
+			font-style: italic;
+			letter-spacing: 0;
+		}
 	</style>
 	<text class="title" x="700" y="130">SENTIMA RIDADO</text>
-	<text class="author" x="700" y="290">ALGERNON BLACKWOOD</text>
+	<text class="contributor-descriptor" x="700" y="230">an English-Esperanto Reader</text>
+	<text class="contributor-descriptor" x="700" y="290">translated from “The Laughter of Courage” by</text>
+	<text class="author" x="700" y="410">ALGERNON BLACKWOOD</text>
 </svg>

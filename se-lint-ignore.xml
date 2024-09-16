@@ -1,93 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
-    <file path="logo.svg">
-		<ignore>
-			<code>f-005</code>
-			<reason>Custom logo.</reason>
-		</ignore>
-	</file>
-    <file path="logo.svg">
-		<ignore>
-			<code>x-001</code>
-			<reason>Custom logo.</reason>
-		</ignore>
-	</file>
-    <file path="logo.svg">
-		<ignore>
-			<code>x-004</code>
-			<reason>Custom logo.</reason>
-		</ignore>
-	</file>
-    <file path="logo.svg">
+	<file path="logo.svg">
 		<ignore>
 			<code>x-014</code>
 			<reason>Custom logo.</reason>
 		</ignore>
 	</file>
-    <file path="content.opf">
+	<file path="content.opf">
 		<ignore>
 			<code>m-007</code>
 			<reason>Producer scan.</reason>
 		</ignore>
 	</file>
-    <file path="content.opf">
-		<ignore>
-			<code>m-023</code>
-			<reason>Not for SE hosting.</reason>
-		</ignore>
-	</file>
-    <file path="content.opf">
+	<file path="content.opf">
 		<ignore>
 			<code>m-009</code>
 			<reason>Non-SE hosted.</reason>
 		</ignore>
 	</file>
-    <file path="colophon.xhtml">
+	<file path="imprint.xhtml">
 		<ignore>
-			<code>m-037</code>
-			<reason>Translation.</reason>
+			<code>s-012</code>
+			<reason>intended for appearance</reason>
 		</ignore>
 	</file>
-    <file path="titlepage.xhtml">
-		<ignore>
-			<code>s-021</code>
-			<reason>Translation.</reason>
-		</ignore>
-	</file>
-    <file path="colophon.xhtml">
+	<file path="imprint.xhtml">
 		<ignore>
 			<code>m-007</code>
-			<reason>Producer scan.</reason>
+			<reason>refers to a page within a larger work</reason>
 		</ignore>
 	</file>
-    <file path="colophon.xhtml">
+	<file path="*.svg">
 		<ignore>
-			<code>m-025</code>
-			<reason>"Translated from" is itself translated.</reason>
+			<code>x-005</code>
+			<reason>for distribution</reason>
 		</ignore>
 	</file>
-    <file path="colophon.xhtml">
+	<file path="*.svg">
 		<ignore>
-			<code>m-035</code>
-			<reason>Translated during production, not a recognized translator.</reason>
+			<code>x-014</code>
+			<reason>for distribution</reason>
 		</ignore>
 	</file>
-    <file path="imprint.xhtml">
+	<file path="*.svg">
 		<ignore>
-			<code>m-007</code>
-			<reason>Translation.</reason>
+			<code>x-004</code>
+			<reason>custom logo</reason>
 		</ignore>
 	</file>
-    <file path="imprint.xhtml">
+	<file path="titlepage.svg">
 		<ignore>
-			<code>m-037</code>
-			<reason>Translation.</reason>
+			<code>s-003</code>
+			<reason>special case, reader</reason>
 		</ignore>
 	</file>
-    <file path="uncopyright.xhtml">
+	<file path="imprint.xhtml">
 		<ignore>
-			<code>f-006</code>
-			<reason>Translation.</reason>
+			<code>t-017</code>
+			<reason>checked, punctuation is part of the title</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
