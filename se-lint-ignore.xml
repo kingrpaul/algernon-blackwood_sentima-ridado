@@ -30,7 +30,7 @@
 			<reason>refers to a page within a larger work</reason>
 		</ignore>
 	</file>
-	<file path="*.svg">
+	<!-- <file path="*.svg">
 		<ignore>
 			<code>x-005</code>
 			<reason>for distribution</reason>
@@ -41,7 +41,7 @@
 			<code>x-014</code>
 			<reason>for distribution</reason>
 		</ignore>
-	</file>
+	</file> -->
 	<file path="*.svg">
 		<ignore>
 			<code>x-004</code>
