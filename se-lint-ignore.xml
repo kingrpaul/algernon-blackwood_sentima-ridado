@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
-	<file path="logo.svg">
+	<file path="colophon.xhtml">
 		<ignore>
-			<code>x-014</code>
-			<reason>Custom logo.</reason>
+			<code>m-007</code>
+			<reason>article within a book requires page reference</reason>
 		</ignore>
 	</file>
 	<file path="content.opf">
@@ -18,34 +18,24 @@
 			<reason>Non-SE hosted.</reason>
 		</ignore>
 	</file>
-	<file path="imprint.xhtml">
+	<file path="colophon.xhtml">
 		<ignore>
 			<code>s-012</code>
 			<reason>intended for appearance</reason>
 		</ignore>
 	</file>
-	<file path="imprint.xhtml">
-		<ignore>
-			<code>m-007</code>
-			<reason>refers to a page within a larger work</reason>
-		</ignore>
-	</file>
-	<!-- <file path="*.svg">
-		<ignore>
-			<code>x-005</code>
-			<reason>for distribution</reason>
-		</ignore>
-	</file>
-	<file path="*.svg">
-		<ignore>
-			<code>x-014</code>
-			<reason>for distribution</reason>
-		</ignore>
-	</file> -->
+
+	<!-- SVG FILES -->
 	<file path="*.svg">
 		<ignore>
 			<code>x-004</code>
 			<reason>custom logo</reason>
+		</ignore>
+	</file>
+	<file path="logo.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>Custom logo.</reason>
 		</ignore>
 	</file>
 	<file path="titlepage.svg">
@@ -54,10 +44,13 @@
 			<reason>special case, reader</reason>
 		</ignore>
 	</file>
-	<file path="imprint.xhtml">
+
+	<!-- DISTRIBUTION FILES -->
+	<file path="*.*">
 		<ignore>
-			<code>t-017</code>
-			<reason>checked, punctuation is part of the title</reason>
+			<code>f-001</code>
+			<reason>distribution files</reason>
 		</ignore>
 	</file>
+
 </se-lint-ignore>
