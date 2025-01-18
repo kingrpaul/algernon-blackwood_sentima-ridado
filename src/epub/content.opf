@@ -4,7 +4,8 @@
 		<dc:identifier id="uid">url:https://github.com/kingrpaul/algernon-blackwood_sentima-ridado</dc:identifier>
 		<dc:date>2023-10-23T23:56:01Z</dc:date>
 		<meta property="dcterms:modified">2024-09-16T14:33:00Z</meta>
-		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<dc:rights>Except as otherwise noted, the sources used in this ebook are believed to be in the US public domain. The ebook itself is dedicated to to the worldwide public domain CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<!-- 	PUBLISH -->
 		<dc:publisher id="publisher">Paul King</dc:publisher>
 		<meta property="file-as" refines="#publisher">King, Paul</meta>
 		<meta property="se:url.homepage" refines="#publisher">https://kingrpaul.github.io</meta>
@@ -15,8 +16,8 @@
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
 		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
-		<link href="http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa" rel="dcterms:conformsTo"/>
-		<meta property="a11y:certifiedBy">Standard Ebooks</meta>
+		<!-- ACCESSIBILITY -->
+		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="schema:accessMode">textual</meta>
 		<meta property="schema:accessMode">visual</meta>
 		<meta property="schema:accessModeSufficient">textual</meta>
@@ -26,53 +27,57 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityFeature">unlocked</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
-		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.1 Level AA.</meta>
+		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
+		<!-- DESCRIPTION -->
 		<dc:title id="title">Sentima Ridado</dc:title>
 		<meta property="file-as" refines="#title">Sentima Ridado</meta>
-		<!-- <dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
-		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
-		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta> -->
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
-		<dc:description id="description" xml:lang="eo">La verkisto spektas filmo.</dc:description>
+		<dc:description id="description" xml:lang="eo">A dual-language Esperanto-English translation of The Laughter of Courage.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description" xml:lang="eo">
-			&lt;p&gt;En post-milito Anglujo, oni aŭdas ridado en kinejo.&lt;/p&gt;
+			&lt;p&gt;A dual-language Esperanto-English translation of The Laughter of Courage.&lt;/p&gt;
 		</meta>
 		<dc:language>eo</dc:language>
-		<!-- <dc:source>PG_URL</dc:source> -->
+		<!-- SOURCES -->
 		<dc:source>https://archive.org/details/1924-tongues-of-fire-and-other-sketches/page/273/</dc:source>
-		<meta property="se:production-notes">The title translation was selected to avoid use of diacritics, not supported in production of the cover.</meta>
-		<meta property="se:word-count">1689</meta>
-		<!-- <meta property="se:reading-ease.flesch">READING_EASE</meta> -->
-		<!-- <meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta> -->
-		<meta property="se:url.vcs.github">https://github.com/kingrpaul/algernon-blackwood_sentima-ridado</meta>
+		<meta property="se:production-notes">Title translation avoids use of diacritics on the cover.</meta>
+		<!-- AUTHOR -->
 		<dc:creator id="author">Algernon Blackwood</dc:creator>
 		<meta property="file-as" refines="#author">Blackwood, Algernon</meta>
 		<meta property="se:name.person.full-name" refines="#author">Algernon Henry Blackwood</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Algernon_Blackwood</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50008491</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<!-- TRANSCRIBER -->
+		<dc:contributor id="transcriber-1">Paul King</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">King, Paul</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://kingrpaul.github.io/</meta>
+		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
+		<!-- COVER ART -->
 		<dc:contributor id="artist">Hal Roach</dc:contributor>
 		<meta property="file-as" refines="#artist">Roach, Hal</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Hal_Roach</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50051034</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
+		<!-- TRANSLATION -->
+		<dc:contributor id="translator">Paul King</dc:contributor>
+		<meta property="file-as" refines="#translator">King, Paul</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
+		<!-- PRODUCTION -->
 		<dc:contributor id="producer-1">Paul King</dc:contributor>
 		<meta property="file-as" refines="#producer-1">King, Paul</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://kingrpaul.github.io/</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">trl</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">mdc</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">pbl</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">wat</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
@@ -96,7 +101,7 @@
 		<itemref idref="imprint.xhtml"/>
 		<itemref idref="sentima-ridado.xhtml"/>
 		<itemref idref="the-laughter-of-courage.xhtml"/>
-		<itemref idref="colophon.xhtml"/>		
+		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
 </package>
