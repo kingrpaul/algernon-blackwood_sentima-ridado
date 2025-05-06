@@ -12,7 +12,7 @@ section[epub|type~="imprint"] img{
 /* COLOPHON */
 #colophon[epub|type~="colophon"] p{
 	line-height: 1;
-	margin: 0.5em;
+	margin: .5em;
 }
 
 #colophon p + p::before{
@@ -20,14 +20,14 @@ section[epub|type~="imprint"] img{
 }
 
 #colophon hr{
-	margin: 0.5em auto;
+	margin: .5em auto;
 	padding: 0;
 }
 
 #colophon img{
 	display: block;
 	height: 15em;
-	margin: 0 auto 0.5em auto;
+	margin: 0 auto .5em auto;
 	width: auto;
 }
 

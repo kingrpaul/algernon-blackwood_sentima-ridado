@@ -6,15 +6,13 @@
 			<reason>dual-language document</reason>
 		</ignore>
 	</file>
-
-	<!-- CONTENT -->	
+	<!-- CONTENT -->
 	<file path="content.opf">
 		<ignore>
 			<code>m-007</code>
 			<reason>producer scan</reason>
 		</ignore>
 	</file>
-
 	<!-- TITLEPAGE -->
 	<file path="titlepage.xhtml">
 		<ignore>
@@ -22,7 +20,6 @@
 			<reason>title not in English</reason>
 		</ignore>
 	</file>
-
 	<!-- COLOPHON -->
 	<file path="colophon.xhtml">
 		<ignore>
@@ -54,7 +51,6 @@
 			<reason>no end punctuation as not using complete sentences</reason>
 		</ignore>
 	</file>
-
 	<!-- SVG FILES -->
 	<file path="titlepage.svg">
 		<ignore>
@@ -68,5 +64,4 @@
 			<reason>cover.svg and titlepage.svg title elements don't match</reason>
 		</ignore>
 	</file>
-
 </se-lint-ignore>
